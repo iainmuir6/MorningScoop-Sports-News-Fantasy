@@ -3,6 +3,8 @@ Iain Muir, iam9ez
 
 PROJECT DESCRIPTION
 
+PROJECT STRUCTURE
+
 # TODO
     • Make Newspage more robust (single data source)
     • Overhead ticker (ex. WSJ)
