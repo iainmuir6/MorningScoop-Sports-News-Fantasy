@@ -16,7 +16,7 @@ streamlit run /Users/iainmuir/PycharmProjects/Desktop/streamlitApp/main.py
 
 import streamlit as st
 
-from espnFantasyFootball import fantasy_app
+# from espnFantasyFootball import fantasy_app
 from sportsHighlights import sports_app
 from stockMarket import market_app
 
@@ -27,8 +27,8 @@ import home_page
 PAGES = {
     "Home": home_page,
     "Marketplace Info": market_app,
-    "Sports Center": sports_app,
-    "Fantasy": fantasy_app
+    "Sports Center": sports_app
+    # "Fantasy": fantasy_app
 }
 
 st.sidebar.title("Main Navigation")
