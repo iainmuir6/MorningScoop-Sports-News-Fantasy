@@ -2,6 +2,7 @@
 Iain Muir, iam9ez
 
 """
+import os
 
 # ------------ FOOTBALL ------------
 FFL_LEAGUE_ID = 1080747
@@ -284,12 +285,18 @@ RESPONSE = pd.DataFrame(
      }, index=[0]
 )
 
-import os
-
 if os.environ['USER'] == 'iainmuir':
     API_KEY = os.environ["API_KEY"]
 else:
     API_KEY = 'bvgk9c748v6oab530k90'
+
+NEWS_LOGOS = {
+    'Home': 'https://upload.wikimedia.org/wikipedia/commons/e/e3/CNBC_logo.svg',
+    'Associated Press': 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Associated_Press_logo_2012.svg',
+    'ESPN': 'https://upload.wikimedia.org/wikipedia/commons/2/2f/ESPN_wordmark.svg',
+    'Financial Times': 'https://upload.wikimedia.org/wikipedia/commons/6/68/Financial_Times_masthead.svg',
+    'Economist': 'https://en.wikipedia.org/wiki/The_Economist#/media/File:The_Economist_Logo.svg'
+}
 
 DOW_JONES = [
     'BA',
