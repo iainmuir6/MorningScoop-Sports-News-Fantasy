@@ -287,8 +287,10 @@ RESPONSE = pd.DataFrame(
 
 if os.environ['USER'] == 'iainmuir':
     API_KEY = os.environ["API_KEY"]
+    MS_KEY = '0735f3833ba41564c96732e13ff9d14a'
 else:
     API_KEY = 'bvgk9c748v6oab530k90'
+    MS_KEY = '0735f3833ba41564c96732e13ff9d14a'
 
 NEWS_LOGOS = {
     'Home': 'https://upload.wikimedia.org/wikipedia/commons/e/e3/CNBC_logo.svg',
