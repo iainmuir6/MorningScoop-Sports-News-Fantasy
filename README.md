@@ -8,4 +8,13 @@ This repository is the central location for three separate repositories:
 * [Financial Data Analysis Dashboard](https://github.com/iainmuir6/Financial-Data-Analysis-Dashboard)
 * [Fantasy Football Dashboard](https://github.com/iainmuir6/Fantasy-Football-Dashboard)
 
-Combination of Stremlit dashboard designed to function as information aggregators
+Combination of Streamlit dashboards designed to function as information aggregators
+
+###### Streamlit
+Powered by [Streamlit](https://docs.streamlit.io/en/stable/index.html). See the 
+[documentation](https://docs.streamlit.io/en/stable/api.html) for more details on its application. Installation:
+
+```
+$ pip install streamlit
+>>> import streamlit as st
+```
