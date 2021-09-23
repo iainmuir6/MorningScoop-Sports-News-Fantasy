@@ -4,7 +4,7 @@
 
 ## Description
 This repository is the central location for three separate repositories:
-* [Sports Highlights](https://github.com/iainmuir6/sportsHighlights); *currently private*
+* [Sports Highlights](https://github.com/iainmuir6/sportsHighlights)
 * [Financial Data Analysis Dashboard](https://github.com/iainmuir6/Financial-Data-Analysis-Dashboard)
 * [Fantasy Football Dashboard](https://github.com/iainmuir6/Fantasy-Football-Dashboard)
 
